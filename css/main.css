@@ -457,11 +457,11 @@ button#prev:hover {
         max-width: 450px;
         min-width: 250px;
         max-height: 200px;
-        padding: 9%;
+        padding: 2%;
         line-height: none;
     }
     .testimonial-container p {
-        font-size: 12px; 
+        font-size: 10px; 
         }
         .testimonial-container h3 {
             font-size: 14px;
