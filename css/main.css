@@ -542,7 +542,7 @@ button#prev:hover {
 }
 /* Контакты Карта */
 .footer {
-    margin: 5% 0;
+    margin: 10% 0 5% 0;
 }
     .map {
         margin: 0;
