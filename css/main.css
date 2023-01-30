@@ -458,6 +458,15 @@ button#prev:hover {
         min-width: 250px;
         padding: 9%;
     }
+    .testimonial-container p {
+        font-size: 1.2em; 
+        }
+        .testimonial-container h3 {
+            font-size: 1.3em;
+        }
+        .testimonial-container h5 {
+            font-size: 1.2em;
+        }
     
 }
 /* прайс */
