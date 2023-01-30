@@ -456,16 +456,18 @@ button#prev:hover {
     .testimonial-container {
         max-width: 450px;
         min-width: 250px;
+        max-height: 200px;
         padding: 9%;
+        line-height: none;
     }
     .testimonial-container p {
-        font-size: 1.2em; 
+        font-size: 12px; 
         }
         .testimonial-container h3 {
-            font-size: 1.3em;
+            font-size: 14px;
         }
         .testimonial-container h5 {
-            font-size: 1.2em;
+            font-size: 13px;
         }
     
 }
