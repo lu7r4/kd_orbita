@@ -11,7 +11,7 @@ html {
     text-transform: uppercase;
     font-family: 'SovMod';
     text-align: center;
-    margin-bottom: 1.5%;
+    margin-bottom: 1%;
     color: #000;
 }
 /*фон*/
@@ -542,7 +542,7 @@ button#prev:hover {
 }
 /* Контакты Карта */
 .footer {
-    margin: 10% 0 5% 0;
+    padding-top: 3%;
 }
     .map {
         margin: 0;
@@ -550,7 +550,7 @@ button#prev:hover {
 }
     .map iframe {
         width: 50%;
-        height: 500px;
+        height: 370px;
         display: block;
         margin: 0 auto;
         box-shadow: 1px 1px 8px #000;
