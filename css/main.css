@@ -5,6 +5,16 @@
 html {
     scroll-behavior: smooth;
 }
+/*заголовки блоков*/
+.title_part {
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family: 'SovMod';
+    text-align: center;
+    margin-bottom: 1.5%;
+    color: #000;
+}
+/*фон*/
 .bg_main {
     background: url('img/background9.jpg');
     background-repeat: repeat;
@@ -16,14 +26,6 @@ nav {
     position: fixed;
     z-index: 1000;
     height: 50px;
-}
-.title_part {
-    font-size: 5vw;
-    text-transform: uppercase;
-    font-family: 'SovMod';
-    text-align: center;
-    table-layout: 1%;
-    color:#000;
 }
 .menu {
     width: 100vw;
@@ -68,8 +70,6 @@ nav {
     color:rgba(0, 0, 0, 0);
     text-shadow: none;
 }
-
-
 @media screen and (max-width: 575px) {
     .menu {
         background-color: rgba(0, 0, 0, 0);
@@ -88,56 +88,56 @@ nav {
         .menu .menu_link {
         padding: 5px 10px;
         }
+        .menu .menu_link:hover {
+            letter-spacing: 2px;
+        }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
- .menu {
-    background-color: rgba(0, 0, 0, 0);
-    flex-direction: column;
-    padding: 2% 0%;
-    min-width: 200px;
-    width: 100%;
-    height: 100%;
-    font-size: 0.8em;
-    align-items: flex-start;
+    .menu {
+        background-color: rgba(0, 0, 0, 0);
+        flex-direction: column;
+        padding: 2% 0%;
+        min-width: 200px;
+        width: 100%;
+        height: 100%;
+        font-size: 0.8em;
+        align-items: flex-start;
     }
     .social {
         flex-direction: column;
         align-items: end;
     }
     .menu .menu_link {
-    padding: 10px 20px;
+        padding: 10px 20px;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .menu {
     font-size: 1.3em;
-
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .menu {
-    background-color: rgba(0, 0, 0, 0);
-    flex-direction: column;
-    padding: 2% 10%;
-    min-width: 200px;
-    width: 100%;
-    height: 100%;
-    font-size: 0.8em;
-    align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0);
+        flex-direction: column;
+        padding: 2% 10%;
+        min-width: 200px;
+        width: 100%;
+        height: 100%;
+        font-size: 0.8em;
+        align-items: flex-start;
     }
     .social {
         flex-direction: column;
         align-items: end;
     }
     .menu .menu_link {
-    padding: 15px 20px;
+        padding: 15px 20px;
     }
-
     nav {
     min-width: 5%;
     height: 100%;
 }
-   
 .menu .menu_link:nth-child(1), 
 .menu_link:nth-child(2), 
 .menu_link:nth-child(3) {
@@ -149,37 +149,36 @@ nav {
 }
 /*Шапка*/
 .subheader {
-color: #fff;
-height: 100vh;
+    color: #fff;
+    height: 100vh;
 }
 /* Шапка Видео*/
 #myVideo {
-object-fit: cover;
-position: relative;
-right: 0;
-bottom: 0;
-width: 100%;
-height: 100vh;
+    object-fit: cover;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
 }
 /* Контент Шапки */
 .content {
-position: relative;
-bottom: 100%;
-text-align: center;
-color: #fff;
-text-shadow: 1px 1px 5px #000;
-letter-spacing: 8px;
-font-family: 'SovMod';
-font-size: 9vw;
-padding: 40px;
-margin-top: 35px;
-z-index: 2;
+    position: relative;
+    bottom: 100%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    letter-spacing: 8px;
+    font-family: 'SovMod';
+    font-size: 9vw;
+    padding: 40px;
+    margin-top: 35px;
+    z-index: 2;
 }
 .content span {
-font-size: 15vw;
-text-align: center;
+    font-size: 15vw;
+    text-align: center;
 }
-
 /*galery*/
 .galery {
     padding-top: 2%;
@@ -197,9 +196,7 @@ text-align: center;
 .img_galery img:hover {
     transform: scale(1.1);
 }
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    
     .img_galery img {
         width: 48%;
         margin: 0.5%;
@@ -233,12 +230,10 @@ text-align: center;
 .advice {
     height: 100%;
     padding-top: 6%;
-
 }
 .advice_container {
     width: 100%;
 }
-
 .advice_text {
     padding: 6%;
     font-size: 1.4rem;
@@ -256,13 +251,13 @@ text-align: center;
     color: rgb(50, 49, 49);
 }
 .advice_images_1 {
-    background-image: url('img/advice_1.jpg');
+    background-image: url('../img/advice_1.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
 }
 .advice_images_2 {
-    background-image: url('img/advice_2.jpg');
+    background-image: url('../img/advice_2.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
@@ -275,63 +270,58 @@ text-align: center;
         padding: 5%;
     }
 }
-
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .advice_container .container .row {
         justify-content: flex-end;
     }
-.advice_text {
-    width: 90%;
-    padding: 1% 3%;
-    font-size: 0.8rem;
-    text-align: right;
-
+    .advice_text {
+        width: 90%;
+        padding: 1% 3%;
+        font-size: 0.8rem;
+        text-align: right;
+    }
+    .advice_images {
+        width: 100%;
+        height: 220px;
+    }
+    .order_1 {
+        order: 2;
+    }
+    .order_2 {
+        order: 1;
+    }
+    .advice_text p {
+        margin-bottom: 8px;
+    }
 }
-.advice_images {
-    width: 100%;
-    height: 220px;
-}
-.order_1 {
-    order: 2;
-}
-.order_2 {
-    order: 1;
-}
-.advice_text p {
-    margin-bottom: 8px;
-}
-}
-
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .advice_container .container .row {
         justify-content: flex-end;
     }
-.advice_text {
-    width: 90%;
-    padding: 1% 3%;
-    font-size: 0.8rem;
-    text-align: right;
-
-}
-.advice_images {
-    width: 100%;
-    height: 220px;
-}
-.order_1 {
-    order: 2;
-}
-.order_2 {
-    order: 1;
-}
-.advice_text p {
-    margin-bottom: 8px;
-}
+    .advice_text {
+        width: 90%;
+        padding: 1% 3%;
+        font-size: 0.8rem;
+        text-align: right;
+    }
+    .advice_images {
+        width: 100%;
+        height: 220px;
+    }
+    .order_1 {
+        order: 2;
+    }
+    .order_2 {
+        order: 1;
+    }
+    .advice_text p {
+        margin-bottom: 8px;
+    }
 }
 @media screen and (max-width: 575px) {
 .advice_container .container .row {
     justify-content: flex-end;
-}
+    }
     .advice_text {
         right: 0;
         width: 90%;
@@ -362,7 +352,6 @@ text-align: center;
 /* Отзывы */
 .reviews {
     margin: 10% 0 35% 0;
-   
     font-family: 'Montserrat', sans-serif;
 }
 .wrapper {
@@ -408,7 +397,6 @@ button#prev:hover {
     box-shadow: 0 0 1em rgba(2, 53, 124, 0.6);
     transition: 200ms linear;
 }
-
 .testimonial-container p {
     font-size: 0.8em;
     color: #2e2e2e;
@@ -432,17 +420,13 @@ button#prev:hover {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
     .testimonial-container p {
-  font-size: 1.2em;
-        
+    font-size: 1.2em; 
     }
     .testimonial-container h3 {
         font-size: 1.3em;
-
     }
     .testimonial-container h5 {
         font-size: 1.2em;
-
-
     }
     .testimonial-container {
         width: 500px;
@@ -468,91 +452,90 @@ button#prev:hover {
 }
 /* прайс */
 .price {
-  font-family: 'Montserrat', sans-serif;
-  padding: 3% 0;
-  height: 100%;
-  font-size: 1.5em;
-  color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3% 0;
+    height: 100%;
+    font-size: 1.5em;
+    color: #fff;
 }
 
 .price_bg {
-  background-color: rgba(5, 0, 0, 0.426);
-  border-radius: 20px;
+    background-color: rgba(5, 0, 0, 0.426);
+    border-radius: 20px;
 }
 .price .row {
-  padding: 2% 30px;
-  height: 100%;
-  align-items: center;
+    padding: 2% 30px;
+    height: 100%;
+    align-items: center;
 }
 .price .col-xl-4 {
     margin-top: 1%;
     padding: 1% 2%;
-  text-align: center;
-  text-shadow: 1px 1px 2px #000;
-  color: #fff;
-  font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+    color: #fff;
+    font-weight: bold;
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
-  .price .col-xl-4 {
-    text-align: left;
-  background: linear-gradient(90deg, rgba(5, 0, 0, 0.2) 0%, rgba(5, 0, 0, 0.01) 100%);
-  }
+    .price .col-xl-4 {
+        text-align: left;
+        background: linear-gradient(90deg, rgba(5, 0, 0, 0.2) 0%, rgba(5, 0, 0, 0.01) 100%);
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .price {
         width: 80%;
         margin: 0 auto;
         font-size: 1.0em;
-      }
-      .price .col-xl-4 {
+        }
+        .price .col-xl-4 {
         text-align: left;
         background: linear-gradient(90deg, rgba(5, 0, 0, 0.2) 0%, rgba(5, 0, 0, 0.01) 100%);
-      }
-
+        }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .price {
         width: 78%;
         margin: 0 auto;
         font-size: 1.1em;
-      }
-      .price .col-xl-4 {
-        padding: 1%;
-        text-align: left;
-        background: linear-gradient(90deg, rgba(5, 0, 0, 0.2) 0%, rgba(5, 0, 0, 0.01) 100%);
-      }
+        }
+        .price .col-xl-4 {
+            padding: 1%;
+            text-align: left;
+            background: linear-gradient(90deg, rgba(5, 0, 0, 0.2) 0%, rgba(5, 0, 0, 0.01) 100%);
+        }
 }
 @media screen and (max-width: 575px) {
     .price {
         width: 70%;
         margin: 0 auto;
         font-size: 0.9em;
-      }
-      .price .col-xl-4 {
+    }
+    .price .col-xl-4 {
         padding: 0% 0;
         text-align: left;
         background: linear-gradient(90deg, rgba(5, 0, 0, 0.2) 0%, rgba(5, 0, 0, 0.01) 100%);
-      }
+    }
 }
-
 /* Контакты Карта */
 .footer {
     margin: 5% 0;
 }
-  .map {
-    margin: 0;
-    padding: 2%;
-  }
-  .map iframe {
-    width: 50%;
-    height: 500px;
-    display: block;
-    margin: 0 auto;
-    box-shadow: 1px 1px 8px #000;
-  }
+    .map {
+        margin: 0;
+        padding: 2%;
+}
+    .map iframe {
+        width: 50%;
+        height: 500px;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 1px 1px 8px #000;
+}
   /* Контакты Адрес */
-  .adres, .content_text {
+.adres, .content_text {
+    color: #fff;
     width: 40%;
     padding: 1%;
     margin: 1%;
@@ -560,18 +543,16 @@ button#prev:hover {
     background-color: rgba(5, 0, 0, 0.426);
     border-radius: 20px;
     text-align: center;
-  }
+}
 .footer_item {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 @media screen and (max-width: 575px) {
     .map iframe {
-    height: 300px;
-
+        height: 250px;
     }
     .footer_item {
         flex-direction: column;
@@ -581,55 +562,52 @@ button#prev:hover {
         .adres, .content_text {
             width: 70%;
         }
-  .adres, .content_text {
-    font-size: 1em;
-
-  }
+.adres, .content_text {
+        font-size: 1em;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .footer_item {
         flex-direction: column;
         align-items: center;
-    
         }
         .adres, .content_text {
             width: 80%;
         }
-  .adres, .content_text {
-    font-size: 1.2em;
-
-  }
+    .adres, .content_text {
+        font-size: 1.2em;
+    }
+    .map iframe {
+        width: 450px;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .map iframe {
         height: 300px;
-    
-        }
+    }
     .footer {
         font-size: 0.9em;
     }
     .footer_item {
-    flex-direction: column;
-    align-items: center;
-
+        flex-direction: column;
+        align-items: center;
     }
     .adres, .content_text {
         width: 80%;
     }
-
 }
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+/*@media screen and (min-width: 992px) and (max-width: 1199px) {
 
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
 
 }
 @media screen and (min-width: 1400px) {
-}
+}*/
 
 @font-face {
     font-family: 'SovMod';
-    src: url("../fonts/SovMod/SovMod.otf") format("truetype"); 
+    src: url('../fonts/SovMod/SovMod.ttf') format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
