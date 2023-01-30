@@ -529,6 +529,7 @@ button#prev:hover {
 }
 @media screen and (max-width: 575px) {
     .price {
+        padding-top: 50px;
         width: 70%;
         margin: 0 auto;
         font-size: 0.9em;
