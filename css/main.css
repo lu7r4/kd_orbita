@@ -437,7 +437,17 @@ button#prev:hover {
     .testimonial-container {
         width: 350px;
         padding: 8%;
+        
     }
+    .testimonial-container p {
+        font-size: 1.2em; 
+        }
+        .testimonial-container h3 {
+            font-size: 1.3em;
+        }
+        .testimonial-container h5 {
+            font-size: 1.2em;
+        }
 }
 @media screen and (max-width: 575px) {
     .wrapper button {
